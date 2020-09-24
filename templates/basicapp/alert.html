@@ -1,0 +1,6 @@
+{% extends "basicapp/base.html" %}
+{% block body_block %}
+    <div class="alert alert-danger" role="alert">
+        Oops! Invalid Credentials <a href="{% url 'login' %}">Login Again</a>
+    </div>
+{% endblock %}
